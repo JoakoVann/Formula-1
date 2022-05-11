@@ -1,0 +1,693 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  margin: 5px;
+}
+
+ul{
+  list-style: none;
+}
+
+main{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.navLiEnd{
+  list-style: none;
+  padding: 10px;
+}
+
+.colorcito{
+  background-color: rgb(240, 219, 219);
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+}
+
+header{
+  grid-area: header;
+}
+
+/* Inicio estilos de la barra de navegacion */
+.navLi{
+  list-style: none;
+  padding: 10px;
+}
+
+
+.topPage {
+  background-color: rgb(226, 30, 4);
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pic{
+  height: 75px;
+  width: 190px;
+}
+
+.topPage__navBar{
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+/*  Fin de estilos barra nav */
+
+
+/* Estilos parralax y el video  Index Styles start */
+.theme{
+  margin: 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  position: relative;
+  max-width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-parallax{
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-f1-drivers-pose-for-the-class-of-2020-photo-on-the-grid-news-photo-1611677220.");
+}
+
+
+.theme__vid{
+  border: 4px solid #21211B;
+  border-radius: 17px;
+}
+/* Estilos parralax y el video */
+
+
+/* Estilos de las secciones */
+.newGen{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 10px solid rgb(255, 17, 0);
+  border-left: 10px solid rgb(255, 17, 0);
+  border-bottom: 10px solid rgb(255, 17, 0);
+  border-radius: 17px 0px 0px 17px;
+  margin: 20px;
+}
+
+.title-main{
+  margin: 5px;
+}
+
+
+.newGen__front{
+  padding: 10px;
+  margin: 10px;
+  border-top: 3px solid rgb(66, 66, 66);
+  border-right: 3px solid rgb(66,66,66);
+  border-bottom: 3px solid rgba(66,66,66,0);
+  border-radius: 0px 15px 0px 15px; 
+  background-color: rgb(230, 228, 228);
+  height: 25rem;
+  max-width: 20rem;
+  text-align: center;
+}
+
+.newGen__car{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border-top: 3px solid rgb(66, 66, 66);
+  border-right: 3px solid rgb(66,66,66);
+  border-bottom: 3px solid rgba(66,66,66,0);
+  border-radius: 0px 15px 0px 15px; 
+  background-color: rgb(230, 228, 228);
+  width: 20rem;
+}
+
+.newGen__img {
+  border: 3px solid #fff;
+  border-radius: 3px; 
+  width: 299px;
+  height: 168px;
+  align-self: center;
+}
+
+.newGen__info{
+  text-align: justify;
+  margin-top: 15px;
+  display: block;
+}
+
+.newGen__car p {
+  margin-top: 15px;
+  text-align: justify;
+}
+
+.seleccion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 10px solid #000;
+  border-right: 10px solid #000;
+  border-top-right-radius: 10px;
+  margin-left: 25px;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(251,251,255);
+  background: linear-gradient(180deg, rgba(251,251,255,1) 0%, rgba(152,152,154,1) 39%, rgba(27,27,27,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.seleccion__cont{
+  width: 35rem;
+  height: 15rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 10px;
+} 
+
+.seleccion__cont-ult{
+  width: 35rem;
+  height: 15rem;
+  position:relative;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.seleccion__img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  border-radius: 10px;
+  margin:5px 10px 5px 10px;
+}
+
+.seleccion__titulo{
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  left: 15px;
+  bottom: 15px;
+} 
+
+
+/* Estilos fotos y video */ /* Index Styles End */
+
+/* Estilos Pie de pagina */
+.endPage{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #15151e;
+  border: 2px solid #38383f;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.endPage-diferente{
+  display: flex;
+  flex-direction: column;
+  background-color: #15151e;
+  border: 2px solid #38383f;
+  color: #fff;
+  margin-top: 5px ;
+}
+
+
+.endPage__arriba{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.endPage__mapa{
+  display: flex;
+  padding: 15px;
+  background-color: rgb(34, 33, 33);
+}
+
+.endPage__mapa a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color:#f00;
+}
+
+.endPage__socials{
+  display: flex;
+}
+/* Estilos pie de pag */
+
+/* inicio Estilos Form */
+.register-site{
+  padding:20px auto ;
+  margin: 10px 20px 0;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 3px solid #000;
+  border-radius: 12px;
+  margin: auto;
+  padding: 20px;
+  max-width: 650px;
+}
+
+.formSection{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 30rem;
+}
+
+.formSection-boton{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px 20px 0px 0px;
+  width: 100%;
+}
+
+.checkbox{
+  width: auto;
+  height: auto;
+}
+
+input, select {
+  border: solid 1px #15151e;
+  border-radius: 10px;
+  height: 54px;
+  width: 100%;
+  padding: 2px;
+}
+
+.pass-titulo{
+  padding-top: 5px;
+  padding-bottom: 6px;
+  font-size:20px;
+}
+
+.pass-required{
+  display: inline-block;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  font-size: 15px;
+}
+  .date {
+  width: 65%;
+}
+.country{
+  width: 70%; 
+  }  
+
+
+  .button{
+  width: 200px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #d90429;
+  background: #d90429;
+}
+
+.button:hover {
+  background: #fff;
+  color: #d90429
+}
+/* Fin estilos form */
+
+/*Inicio pagina circuitos*/
+.circuito{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border-top: 15px solid #f00;
+  border-left: 15px solid #f00;
+  border-bottom: 15px solid #f00;
+  border-radius: 10px 0px 0px 10px;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 15px;
+}
+
+.titulo{
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
+  font-size: 30px;
+  border-top: 15px solid #000;
+  border-right: 15px solid #000;
+  border-top-right-radius: 10px;
+}
+
+.size-border{
+  border: 2px solid  #000;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top:30px;
+  background-color:rgb(231, 231, 231);
+}
+
+.contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+  width: 327px;
+  height: 330px;
+}
+
+.circuito__info{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: .5px solid #000;
+  padding-bottom: 5px;
+}
+
+.pais img{
+  width: 50px;
+  border: 1px solid #949498;
+  border-radius: 3px;
+}
+
+.circuito__data {
+  margin-top: 10px;
+}
+
+.circuito__data h2 {
+  margin: 10px;
+}
+
+.circuito__data p {
+  margin-top: 10px;
+}
+
+.date-cal{
+  display: inline-block;
+}
+
+.mes {
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #000;
+}
+
+.circuito__data img{
+  height: 6rem;
+  width: 15rem;
+  padding: 10px 0px 10px 0px;
+  border-bottom: .5px solid #000;
+  border-top: .5px solid #000;
+}
+/*Fin pagina circuitos*/
+
+/* Inicio pagina pilotos*/
+
+.pilotos{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  border-top: 15px solid #f00;
+  border-left: 15px solid #f00;
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.size-border-pilotos {
+  border: 2px solid  #000;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left:30px;
+  margin-top:20px;
+  background-color:rgb(231, 231, 231);
+}
+
+.pilotos__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  width: 18.5rem;
+  background-color: rgb(231, 231, 231);
+}
+
+
+.pilotos-titulo{
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
+  font-size: 30px;
+  border-top: 15px solid #000;
+  border-right: 15px solid #000;
+  border-top-right-radius: 10px;
+}
+
+.pilotos__info{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: .5px solid #000;
+}
+
+.piloto-name p{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.piloto-pais img{
+  width: 50px;
+  border: 1px solid #949498;
+  border-radius: 3px;
+}
+
+.pilotos__img{
+  display: flex;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: .5px solid #000;
+}
+
+.num {
+  width: 90px;
+  height: 54px;
+  border: 1px solid (231, 231, 231);
+  border-radius: 3px;
+}
+
+.pilotos__datos{
+  margin-top: 15px;
+  padding-bottom:10px;
+}
+/* Fin pagina pilotos */
+
+/* Inicio pagina escuderias */
+
+.grid__container{
+  display: grid;
+  grid-template-areas: "header header"
+                        "main main"
+                        "footer footer";
+}
+
+.escu{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  border-top: 15px solid #f00;
+  border-left: 15px solid #f00;
+  border-bottom: 15px solid #f00;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 30px;
+  margin-left:30px; 
+  padding: 0px 20px 15px 5px; 
+}
+
+.escu-title{
+  margin: 10px 30px 10px 30px;
+  padding: 10px;
+  font-size: 30px;
+  border-top: 15px solid #000;
+  border-right: 15px solid #000;
+  border-top-right-radius: 10px;
+}
+
+.escu__container{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+}
+
+.escu__info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:.5px solid #000;  
+  margin-bottom: 10px;
+}
+
+.escudo img{
+  width: 50px;
+  height: 50px;
+}
+
+.escu__pilotos p{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  border-bottom:.5px solid #000;
+  border-right: .5px solid #000;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.escu__img img{
+  width: 20rem;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .grid__container{
+    grid-template-areas: "header"
+                          "main"
+                          "footer";
+  }
+
+  .theme, .img-parallax{
+    display: none;
+  }
+
+  .escu-title{
+    margin: 10px 0px 10px 0px;
+  }
+
+  .escu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin: auto;
+  }
+
+  .pilotos{
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(20, 1fr);
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .topPage{
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .topPage__navBar{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .formSection{
+    width: 18rem;
+  }
+
+  .circuito{
+    grid-template-columns: 1fr;
+  }
+
+  .endPage__mapa{
+    display: none;
+  }
+}
+/* Tablets */
+
+@media (min-width: 541px) and (max-width: 720px){
+
+  .grid__container{
+    grid-template-areas: "header header"
+                          "main main"
+                          "footer footer";
+  }
+
+  .escu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 20px 15px 5px; 
+    margin: 0px 30px 0px 30px;
+  }
+
+  .pilotos{
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .topPage{
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .topPage__navBar{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .formSection{
+    width: 31rem;
+  }
+
+  .circuito{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+/* Fin pagina escuderias */
