@@ -550,7 +550,7 @@ input, select {
   grid-template-areas: "header header"
                         "main main"
                         "footer footer";
-}
+} 
 
 .escu{
   display: grid;
