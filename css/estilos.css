@@ -158,11 +158,6 @@ header{
 }
 
 .seleccion{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   border-top: 10px solid #000;
   border-right: 10px solid #000;
   border-top-right-radius: 10px;
@@ -190,7 +185,6 @@ header{
   overflow: hidden;
   border-radius: 20px;
   margin-bottom: 10px;
-  
 }
 
 .seleccion__img-uno,.seleccion__img-dos, .seleccion__img-tres{
