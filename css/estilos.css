@@ -393,7 +393,7 @@ input, select {
   border-radius: 10px;
   margin-left: 30px;
   margin-top:30px;
-  background-color:rgb(231, 231, 231);
+  background-color: #fff;
 }
 
 .contenedor{
@@ -455,7 +455,7 @@ input, select {
   border-right: 10px solid #000;
   border-top-right-radius: 10px;
   padding: 10px;
-  background: rgba(152,152,154,1);
+  background: rgba(152,152,154);
 }
 /*Fin pagina circuitos*/
 
@@ -474,7 +474,7 @@ input, select {
   border-radius: 10px;
   margin-bottom: 5px;
   margin-top:20px;
-  background-color:rgb(231, 231, 231);
+  background-color: #fff;
   width: fit-content;
 }
 
@@ -483,7 +483,7 @@ input, select {
   flex-direction: column;
   justify-content: center;
   padding-left: 15px;
-  background-color: rgb(231, 231, 231);
+  /* background-color: rgb(231, 231, 231); */
 }
 
 
@@ -586,7 +586,6 @@ input, select {
 }
 
 .escu__img img{
-  width: 20rem;
   margin-top: 10px;
 }
 
@@ -626,6 +625,14 @@ input, select {
 
   .circuito__data img{
     width: 12rem;
+  }
+
+  .escu__img img{
+    width: 17rem;
+  }
+
+  .escu__pilotos p{
+    margin-right: 0px;
   }
 }
 /* Tablets */
