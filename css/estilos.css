@@ -369,9 +369,6 @@ input, select {
 
 /*Inicio pagina circuitos*/
 .circuito{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(8, 1fr);
   border-top: 15px solid #f00;
   border-left: 15px solid #f00;
   border-bottom: 15px solid #f00;
@@ -404,13 +401,11 @@ input, select {
   flex-wrap: wrap;
   flex-direction: column;
   padding: 10px;
-  width: 327px;
-  height: 330px;
+  height: fit-content;
 }
 
 .circuito__info{
   display: flex;
-  justify-content: space-between;
   font-size: 18px;
   font-weight: 600;
   border-bottom: .5px solid #000;
@@ -451,6 +446,16 @@ input, select {
   padding: 10px 0px 10px 0px;
   border-bottom: .5px solid #000;
   border-top: .5px solid #000;
+}
+
+.pistas{
+  margin: 10px 30px 10px 30px;
+  overflow: hidden;
+  border-top: 10px solid #000;
+  border-right: 10px solid #000;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  background: rgba(152,152,154,1);
 }
 /*Fin pagina circuitos*/
 
@@ -617,6 +622,10 @@ input, select {
 
   .endPage__mapa{
     display: none;
+  }
+
+  .circuito__data img{
+    width: 12rem;
   }
 }
 /* Tablets */
