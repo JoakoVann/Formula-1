@@ -457,9 +457,6 @@ input, select {
 /* Inicio pagina pilotos*/
 
 .pilotos{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(7, 1fr);
   border-top: 15px solid #f00;
   border-left: 15px solid #f00;
   border-radius: 10px 0px 0px 10px;
