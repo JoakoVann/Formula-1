@@ -460,17 +460,17 @@ input, select {
   border-top: 15px solid #f00;
   border-left: 15px solid #f00;
   border-radius: 10px 0px 0px 10px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .size-border-pilotos {
   border: 2px solid  #000;
   border-radius: 10px;
   margin-bottom: 5px;
-  margin-left:30px;
   margin-top:20px;
   background-color:rgb(231, 231, 231);
+  width: fit-content;
 }
 
 .pilotos__container{
@@ -478,13 +478,12 @@ input, select {
   flex-direction: column;
   justify-content: center;
   padding-left: 15px;
-  width: 18.5rem;
   background-color: rgb(231, 231, 231);
 }
 
 
 .pilotos-titulo{
-  margin: 10px 30px 10px 30px;
+  margin: 10px 20px 10px 20px;
   padding: 10px;
   font-size: 30px;
   border-top: 15px solid #000;
@@ -518,10 +517,11 @@ input, select {
 }
 
 .num {
-  width: 90px;
-  height: 54px;
+  width: 5rem;
+  height: 3rem;
   border: 1px solid (231, 231, 231);
   border-radius: 3px;
+  margin-right: 15px;
 }
 
 .pilotos__datos{
@@ -532,18 +532,7 @@ input, select {
 
 /* Inicio pagina escuderias */
 
-.grid__container{
-  display: grid;
-  grid-template-areas: "header header"
-                        "main main"
-                        "footer footer";
-} 
-
 .escu{
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: repeat(5, 1fr);
-  align-items: center;
   border-top: 15px solid #f00;
   border-left: 15px solid #f00;
   border-bottom: 15px solid #f00;
@@ -597,11 +586,6 @@ input, select {
 }
 
 @media (min-width: 320px) and (max-width: 540px) {
-  .grid__container{
-    grid-template-areas: "header"
-                          "main"
-                          "footer";
-  }
 
   .theme, .img-parallax{
     display: none;
@@ -612,9 +596,6 @@ input, select {
   }
 
   .escu{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(10, 1fr);
     align-items: center;
     border-top: 15px solid #f00;
     border-left: 15px solid #f00;
@@ -624,32 +605,14 @@ input, select {
   }
 
   .pilotos{
-    /* display: grid; */
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(20, 1fr);
     border-top: 15px solid #f00;
     border-left: 15px solid #f00;
     border-radius: 10px 0px 0px 10px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  .topPage{
-    height: fit-content;
-    justify-content: center;
-  }
-
-  .topPage__navBar{
-    flex-direction: column;
-    justify-content: center;
+    margin-left: 0px;
   }
 
   .formSection{
     width: 18rem;
-  }
-
-  .circuito{
-    grid-template-columns: 1fr;
   }
 
   .endPage__mapa{
@@ -659,17 +622,7 @@ input, select {
 /* Tablets */
 
 @media (min-width: 541px) and (max-width: 720px){
-
-  .grid__container{
-    grid-template-areas: "header header"
-                          "main main"
-                          "footer footer";
-  }
-
   .escu{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
     align-items: center;
     border-top: 15px solid #f00;
     border-left: 15px solid #f00;
@@ -680,34 +633,17 @@ input, select {
   }
 
   .pilotos{
-    /* display: grid; */
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(10, 1fr);
     border-top: 15px solid #f00;
     border-left: 15px solid #f00;
     border-radius: 10px 0px 0px 10px;
-    margin-left: 30px;
-    margin-right: 30px;
   }
-
-  .topPage{
-    height: fit-content;
-    justify-content: center;
-  }
-
-  .topPage__navBar{
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .formSection{
     width: 31rem;
   }
 
-  .circuito{
-    grid-template-columns: 1fr 1fr;
+  .size-border-pilotos{
+    width: fit-content;
   }
 }
-
 
 /* Fin pagina escuderias */
