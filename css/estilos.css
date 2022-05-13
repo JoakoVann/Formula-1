@@ -319,7 +319,7 @@ header{
   height: auto;
 }
 
-input, select {
+.ingresar,select,input {
   border: solid 1px #15151e;
   border-radius: 10px;
   height: 54px;

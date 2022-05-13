@@ -41,22 +41,21 @@
 		<section class="register-site">
 			<form class="formContainer" method="POST">
 				<h1>Cree su cuenta</h1>
-				<div class="formSection">
-					<label for="Nombre">Nombre</label>
-					<input type="text" placeholder="Escriba su nombre aqui">
+				<div class="form-floating mb-3 formSection">
+					<input type="text" class="form-control ingresar ingresar" id="floatingInput" placeholder="Nombre">
+					<label class="ms-2 mt-1" for="floatingInput">Nombre</label>
+				</div>
+				<div class="form-floating formSection">
+					<input type="text" class="form-control ingresar" id="floatingPassword" placeholder="Apellido">
+					<label class="ms-2 mt-1" for="floatingPassword">Apellido</label>
 				</div>
 				<div class="formSection">
-					<label for="Apellido">Apellido</label>
-					<input type="text" placeholder="Escriba su apellido aqui">
-				</div>
-				<div class="formSection">
-					<label for="birthdate">Fecha de nacimiento</label>
+					<label  for="birthdate">Fecha de nacimiento</label>
 					<input class="date" type="date" placeholder="DD/MM/YYYY">
 				</div>
 				<div class="formSection">
-					<label for="country">Pais de residencia</label>
 					<select class="country">
-						<option value="">Seleccionar</option>
+						<option selected>Pais de Residencia</option>
 						<option value="AFG">Afganistán</option>
 						<option value="ALB">Albania</option>
 						<option value="DEU">Alemania</option>
@@ -301,14 +300,14 @@
 						<option value="ZWE">Zimbabue</option>
 					</select>	
 				</div>
-				<div class="formSection">
-					<label for="email">Ingrese su email</label>
-					<input type="email" placeholder="Email">
+				<div class="form-floating mb-3 formSection">
+					<input  type="email" class="form-control ingresar" id="floatingInput" placeholder="name@example.com">
+					<label class="ms-2 mt-1" for="floatingInput">Email</label>
 				</div>
-				<div class="formSection">
-					<label for="password"> Ingrese su contraseña</label>
-					<input type="password" placeholder="**********">
-					<div>
+				<div class="form-floating formSection">
+					<input type="password" class="form-control ingresar" id="floatingPassword" placeholder="Password">
+					<label class="ms-2 mt-1" for="floatingPassword">Contraseña</label>
+				</div>
 						<p class="pass-titulo">La contraseña debe tener</p>
 						<p class="pass-required">● Mayúsculas</p> <p class="pass-required">● Minúsculas</p> <p class="pass-required">● Número</p> <p class="pass-required">● 8-30 caracteres</p> <p class="pass-required">● Cualquiera de los siguientes digitos !, @, #, $, %, ^, &, +, =, -</p>
 				</div>
