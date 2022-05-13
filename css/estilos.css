@@ -50,21 +50,17 @@ header{
   color: #fff;
   font-family: 'Plus Jakarta Sans', sans-serif;
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.pic{
-  height: 75px;
-  width: 190px;
+.textito{
+  font-size: 32px;
 }
 
-.topPage__navBar{
-  font-size: 20px;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 25px;
+.element{
+  margin-right: 20px;
 }
+
 /*  Fin de estilos barra nav */
 
 
