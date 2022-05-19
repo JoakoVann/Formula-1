@@ -1,3 +1,7 @@
+
+@import 'var';
+
+
 *{
   margin: 0px;
   padding: 0px;
@@ -5,7 +9,7 @@
 
 a{
   text-decoration: none;
-  color: #fff;
+  color: $white;
   margin: 5px;
 }
 
@@ -44,7 +48,7 @@ header{
 
 .topPage {
   background-color: rgb(226, 30, 4);
-  color: #fff;
+  color: $white;
   font-family: 'Plus Jakarta Sans', sans-serif;
   display: flex;
   justify-content: space-between;
@@ -133,7 +137,7 @@ header{
 }
 
 .newGen__img {
-  border: 3px solid #fff;
+  border: 3px solid $white;
   border-radius: 3px; 
   width: 18.68rem;
   height: 10.5rem;
@@ -154,13 +158,13 @@ header{
 .seleccion{
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  background: rgb(240, 219, 219);
-  background: linear-gradient(180deg, rgba(251,251,255,1) 0%, rgba(152,152,154,1) 39%, rgba(27,27,27,1) 100%, rgba(255,255,255,1) 100%);
+  background: $white;
+  background: $gradiente;
 }
 
 .bordes{
-  border-top: 0.625rem solid #000;
-  border-right: 0.625rem solid #000;
+  border-top: 0.625rem solid $black;
+  border-right: 0.625rem solid $black;
   border-top-right-radius: 0.625rem;
   padding:1rem;
   width: 100%;
@@ -210,7 +214,7 @@ header{
 
 .seleccion__titulo{
   position: absolute;
-  color: #fff;
+  color: $white;
   font-size: 1.25rem;
   left: 0.9rem;
   bottom: 0.9rem;
@@ -224,18 +228,18 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #15151e;
+  background-color: $footer-color;
   border: 2px solid #38383f;
-  color: #fff;
+  color: $white;
   margin-top: 5px;
 }
 
 .endPage-new{
   display: flex;
   flex-direction: column;
-  background-color: #15151e;
+  background-color: $footer-color;
   border: 2px solid #38383f;
-  color: #fff;
+  color: $white;
 }
 
 
@@ -248,13 +252,13 @@ header{
 .endPage__mapa{
   display: flex;
   padding: 0.9rem;
-  background-color: rgb(34, 33, 33);
+  background-color: $footer-secundario;
 }
 
 .endPage__mapa a:hover{
   cursor: pointer;
   text-decoration: underline;
-  text-decoration-color:#f00;
+  text-decoration-color:$red;
 }
 
 .endPage__socials{
@@ -269,9 +273,9 @@ header{
   cursor: pointer;
   text-decoration: none;
   transition: 0.4s;
-  box-shadow: #000
+  box-shadow: $black
                     3px 3px 6px 0px,
-                #000
+                $black
                     -3px -3px 6px 1px;
 }
 
@@ -292,7 +296,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 3px solid #000;
+  border: 3px solid $black;
   border-radius: 12px;
   margin: auto;
   padding: 1.25rem;
@@ -321,7 +325,7 @@ header{
 }
 
 .ingresar,select,input {
-  border: solid 1px #15151e;
+  border: solid 1px $footer-color;
   border-radius: 0.625rem;
   height: 3.375rem;
   width: 100%;
@@ -351,7 +355,7 @@ header{
 
 .button{
   width: 12.5rem;
-  color: #fff;
+  color: $white;
   padding: 5px 0.625rem;
   font-weight: bold;
   cursor: pointer;
@@ -364,16 +368,16 @@ header{
 }
 
 .button:hover {
-  background: #fff;
+  background: $white;
   color: #d90429
 }
 /* Fin estilos form */
 
 /*Inicio pagina circuitos*/
 .circuito{
-  border-top: 0.9rem solid #f00;
-  border-left: 0.9rem solid #f00;
-  border-bottom: 0.9rem solid #f00;
+  border-top: 0.9rem solid $red;
+  border-left: 0.9rem solid $red;
+  border-bottom: 0.9rem solid $red;
   border-radius: 0.625rem 0px 0px 0.625rem;
   align-items: center;
   margin-left: 1.875rem;
@@ -385,17 +389,17 @@ header{
   margin: 0.625rem 1.875rem 0.625rem 1.875rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
+  border-top: 0.9rem solid $black;
+  border-right: 0.9rem solid $black;
   border-top-right-radius: 0.625rem;
 }
 
 .size-border{
-  border: 2px solid  #000;
+  border: 2px solid  $black;
   border-radius: 0.625rem;
   margin-left: 1.875rem;
   margin-top:1.875rem;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .contenedor{
@@ -410,7 +414,7 @@ header{
   display: flex;
   font-size: 1.1rem;
   font-weight: 600;
-  border-bottom: .5px solid #000;
+  border-bottom: .5px solid $black;
   padding-bottom: 5px;
 }
 
@@ -437,29 +441,29 @@ header{
 }
 
 .mes {
-  border: 1px solid #000;
+  border: 1px solid $black;
   border-radius: 3px;
-  background-color: #000;
+  background-color: $black;
 }
 
 .circuito__data img{
   height: 6rem;
   width: 15rem;
   padding: 0.625rem 0px 0.625rem 0px;
-  border-bottom: .5px solid #000;
-  border-top: .5px solid #000;
+  border-bottom: .5px solid $black;
+  border-top: .5px solid $black;
 }
 
 .pistas{
   overflow: hidden;
   padding: 0.625rem;
-  background: rgb(240, 219, 219);
-  background: linear-gradient(180deg, rgba(251,251,255,1) 0%, rgba(152,152,154,1) 39%, rgba(27,27,27,1) 100%, rgba(255,255,255,1) 100%);
+  background: $white;
+  background: $gradiente;
 }
 
 .pistas__bordes{
-  border-top: 0.625rem solid #000;
-  border-right: 0.625rem solid #000;
+  border-top: 0.625rem solid $black;
+  border-right: 0.625rem solid $black;
   border-top-right-radius: 0.625rem;
   margin: 1rem;
   padding-top: 1rem;
@@ -470,15 +474,15 @@ header{
 /* Inicio pagina pilotos*/
 
 .pilotos{
-  border-top: 0.9rem solid #f00;
-  border-left: 0.9rem solid #f00;
+  border-top: 0.9rem solid $red;
+  border-left: 0.9rem solid $red;
   border-radius: 0.625rem 0px 0px 0.625rem;
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 }
 
 .size-border{
-  border: 2px solid  #000;
+  border: 2px solid  $black;
   border-radius: 0.625rem;
   margin-bottom: 5px;
   margin-top:1.25rem;
@@ -499,8 +503,8 @@ header{
   margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
+  border-top: 0.9rem solid $black;
+  border-right: 0.9rem solid $black;
   border-top-right-radius: 0.625rem;
 }
 
@@ -508,7 +512,7 @@ header{
   display: flex;
   justify-content: space-between;
   padding: 0.625rem;
-  border-bottom: .5px solid #000;
+  border-bottom: .5px solid $black;
 }
 
 .piloto-name p{
@@ -526,7 +530,7 @@ header{
   display: flex;
   margin-top: 5px;
   padding-bottom: 5px;
-  border-bottom: .5px solid #000;
+  border-bottom: .5px solid $black;
 }
 
 .num {
@@ -546,9 +550,9 @@ header{
 /* Inicio pagina escuderias */
 
 .escu{
-  border-top: 0.9rem solid #f00;
-  border-left: 0.9rem solid #f00;
-  border-bottom: 0.9rem solid #f00;
+  border-top: 0.9rem solid $red;
+  border-left: 0.9rem solid $red;
+  border-bottom: 0.9rem solid $red;
   border-radius: 0.625rem 0px 0px 0.625rem;
   margin-right: 1.875rem;
   margin-left:1.875rem; 
@@ -559,8 +563,8 @@ header{
   margin: 0.625rem 1.875rem 0.625rem 1.875rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
+  border-top: 0.9rem solid $black;
+  border-right: 0.9rem solid $black;
   border-top-right-radius: 0.625rem;
 }
 
@@ -574,7 +578,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom:.5px solid #000;  
+  border-bottom:.5px solid $black;  
   margin-bottom: 0.625rem;
 }
 
@@ -587,8 +591,8 @@ header{
   display: inline-block;
   padding: 5px;
   margin-right: 0.625rem;
-  border-bottom:.5px solid #000;
-  border-right: .5px solid #000;
+  border-bottom:.5px solid $black;
+  border-right: .5px solid $black;
   border-bottom-right-radius: 5px;
   text-align: center;
 }
@@ -609,16 +613,16 @@ header{
 
   .escu{
     align-items: center;
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
-    border-bottom: 0.9rem solid #f00;
+    border-top: 0.9rem solid $red;
+    border-left: 0.9rem solid $red;
+    border-bottom: 0.9rem solid $red;
     border-radius: 0.625rem 0px 0px 0.625rem;
     margin: auto;
   }
 
   .pilotos{
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
+    border-top: 0.9rem solid $red;
+    border-left: 0.9rem solid $red;
     border-radius: 0.625rem 0px 0px 0.625rem;
     margin-left: 0px;
   }
@@ -652,17 +656,17 @@ header{
 @media (min-width: 541px) and (max-width: 71.25rem){
   .escu{
     align-items: center;
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
-    border-bottom: 0.9rem solid #f00;
+    border-top: 0.9rem solid $red;
+    border-left: 0.9rem solid $red;
+    border-bottom: 0.9rem solid $red;
     border-radius: 0.625rem 0px 0px 0.625rem;
     padding: 0px 1.25rem 0.9rem 5px; 
     margin: 0px 1.875rem 0px 1.875rem;
   }
 
   .pilotos{
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
+    border-top: 0.9rem solid $red;
+    border-left: 0.9rem solid $red;
     border-radius: 0.625rem 0px 0px 0.625rem;
   }
   .formSection{
