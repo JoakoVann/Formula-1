@@ -1,3 +1,52 @@
+@media (min-width: 320px) and (max-width: 540px) {
+  .theme {
+    display: none; }
+  .escu-title {
+    margin: 10px 0px 10px 0px; }
+  .escu {
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin: auto; }
+  .pilotos {
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0px; }
+  .endPage__mapa {
+    display: none; }
+  .circuito__data img {
+    width: 12rem; }
+  .escu__img img {
+    width: 17rem; }
+  .escu__pilotos p {
+    margin-right: 0px; }
+  .fondo {
+    display: none; }
+  .formContainer .formSection {
+    width: 18rem; } }
+
+/* Tablets */
+@media (min-width: 541px) and (max-width: 720px) {
+  .escu {
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 20px 15px 5px;
+    margin: 0px 30px 0px 30px; }
+  .pilotos {
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px; }
+  .formSection {
+    width: 31rem; }
+  .size-border-pilotos {
+    width: fit-content; } }
+
 .endPage {
   display: flex;
   flex-direction: column;
@@ -307,7 +356,7 @@
     display: flex;
     flex-direction: column;
     padding: 0.625rem;
-    width: 70%; }
+    width: 30rem; }
     .formContainer .formSection .ingresar, .formContainer .formSection select, .formContainer .formSection input {
       border: solid 1px #15151e;
       border-radius: 0.625rem;
@@ -355,6 +404,55 @@
   padding-bottom: 8px;
   font-size: 0.9rem; }
 
+@media (min-width: 320px) and (max-width: 540px) {
+  .theme {
+    display: none; }
+  .escu-title {
+    margin: 10px 0px 10px 0px; }
+  .escu {
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin: auto; }
+  .pilotos {
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0px; }
+  .endPage__mapa {
+    display: none; }
+  .circuito__data img {
+    width: 12rem; }
+  .escu__img img {
+    width: 17rem; }
+  .escu__pilotos p {
+    margin-right: 0px; }
+  .fondo {
+    display: none; }
+  .formContainer .formSection {
+    width: 18rem; } }
+
+/* Tablets */
+@media (min-width: 541px) and (max-width: 720px) {
+  .escu {
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 20px 15px 5px;
+    margin: 0px 30px 0px 30px; }
+  .pilotos {
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px; }
+  .formSection {
+    width: 31rem; }
+  .size-border-pilotos {
+    width: fit-content; } }
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -399,48 +497,3 @@ main {
   margin-top: 1.25rem;
   background-color: #ece2e2;
   width: fit-content; }
-
-@media (min-width: 320px) and (max-width: 540px) {
-  .theme {
-    display: none; }
-  .escu-title {
-    margin: 10px 0px 10px 0px; }
-  .escu {
-    align-items: center;
-    border-top: 15px solid #f00;
-    border-left: 15px solid #f00;
-    border-bottom: 15px solid #f00;
-    border-radius: 10px 0px 0px 10px;
-    margin: auto; }
-  .pilotos {
-    border-top: 15px solid #f00;
-    border-left: 15px solid #f00;
-    border-radius: 10px 0px 0px 10px;
-    margin-left: 0px; }
-  .endPage__mapa {
-    display: none; }
-  .circuito__data img {
-    width: 12rem; }
-  .escu__img img {
-    width: 17rem; }
-  .escu__pilotos p {
-    margin-right: 0px; } }
-
-/* Tablets */
-@media (min-width: 541px) and (max-width: 720px) {
-  .escu {
-    align-items: center;
-    border-top: 15px solid #f00;
-    border-left: 15px solid #f00;
-    border-bottom: 15px solid #f00;
-    border-radius: 10px 0px 0px 10px;
-    padding: 0px 20px 15px 5px;
-    margin: 0px 30px 0px 30px; }
-  .pilotos {
-    border-top: 15px solid #f00;
-    border-left: 15px solid #f00;
-    border-radius: 10px 0px 0px 10px; }
-  .formSection {
-    width: 31rem; }
-  .size-border-pilotos {
-    width: fit-content; } }

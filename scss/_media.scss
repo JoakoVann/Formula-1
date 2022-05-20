@@ -1,0 +1,65 @@
+@media (min-width: 320px) and (max-width: 540px) {
+  .theme{
+    display: none;
+  }
+  .escu-title{
+    margin: 10px 0px 10px 0px;
+  }
+  .escu{
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin: auto;
+  }
+  .pilotos{
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0px;
+  }
+  .endPage__mapa{
+    display: none;
+  }
+  .circuito__data img{
+    width: 12rem;
+  }
+  .escu__img img{
+    width: 17rem;
+  }
+  .escu__pilotos p{
+    margin-right: 0px;
+  }
+
+  .fondo{
+    display: none;
+  }
+
+  .formContainer .formSection{
+    width:18rem;
+  }
+}
+/* Tablets */
+@media (min-width: 541px) and (max-width: 720px){
+  .escu{
+    align-items: center;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 20px 15px 5px; 
+    margin: 0px 30px 0px 30px;
+  }
+  .pilotos{
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .formSection{
+    width: 31rem;
+  }
+  .size-border-pilotos{
+    width: fit-content;
+  }
+}
