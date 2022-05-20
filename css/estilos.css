@@ -307,7 +307,7 @@
     display: flex;
     flex-direction: column;
     padding: 0.625rem;
-    width: 30rem; }
+    width: 70%; }
     .formContainer .formSection .ingresar, .formContainer .formSection select, .formContainer .formSection input {
       border: solid 1px #15151e;
       border-radius: 0.625rem;
@@ -417,8 +417,6 @@ main {
     border-left: 15px solid #f00;
     border-radius: 10px 0px 0px 10px;
     margin-left: 0px; }
-  .formSection {
-    width: 18rem; }
   .endPage__mapa {
     display: none; }
   .circuito__data img {
