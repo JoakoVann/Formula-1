@@ -1,0 +1,91 @@
+.register-site{
+  padding:1.25rem auto ;
+  margin: 0.625rem 1.25rem 0;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 3px solid $black;
+  border-radius: 12px;
+  margin: 1.5rem auto 1.5rem auto;
+  padding: 1.25rem;
+  max-width: 63.125rem;
+
+  .formSection{
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    width: 30rem;
+    
+    .ingresar,select,input {
+      border: solid 1px $footer-color;
+      border-radius: 0.625rem;
+      height: 3.375rem;
+      // width: 100%;
+      padding: 2px;
+    }
+    .date {
+      width: 65%;
+    }
+    
+    .country {
+      width: 70%; 
+    }  
+    
+    &-boton{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 0.625rem 1.25rem 0px 0px;
+      width: 100%;
+      .button{
+        width: 12.5rem;
+        color: $white;
+        padding: 5px 0.625rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #d90429;
+        background: #d90429;
+        
+        &:hover {
+          background: $white;
+          color: #d90429
+        }
+      }
+    }
+    
+    
+  }
+}
+
+
+
+.checkbox{
+  width: auto;
+  height: auto;
+}
+
+.pass-titulo{
+  padding-top: 5px;
+  padding-bottom: 6px;
+  font-size:1.25rem;
+}
+
+.pass-required{
+  display: inline-block;
+  padding-right: 1.5rem;
+  padding-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+
+
+
+

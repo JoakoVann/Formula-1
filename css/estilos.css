@@ -1,52 +1,45 @@
-* {
-  margin: 0px;
-  padding: 0px; }
+.endPage {
+  display: flex;
+  flex-direction: column;
+  background-color: #15151e;
+  border: 2px solid #38383f;
+  color: #fff; }
+  .endPage__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .endPage__socials {
+    display: flex; }
+    .endPage__socials > a {
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.4s;
+      box-shadow: #000 3px 3px 6px 0px, #000 -3px -3px 6px 1px; }
+      .endPage__socials > a .primero:hover {
+        transform: translateY(-0.625rem); }
+      .endPage__socials > a .segundo:hover {
+        transform: translateY(-0.625rem); }
+      .endPage__socials > a .tercero:hover {
+        transform: translateY(-0.625rem); }
+  .endPage__mapa {
+    display: flex;
+    padding: 0.9rem;
+    background-color: #222121; }
+    .endPage__mapa a:hover {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-color: #f00; }
 
-a {
-  text-decoration: none;
-  color: #fff;
+.title-main {
   margin: 5px; }
 
-ul {
-  list-style: none; }
+.img-parallax {
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-f1-drivers-pose-for-the-class-of-2020-photo-on-the-grid-news-photo-1611677220."); }
 
-main {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Plus Jakarta Sans', sans-serif; }
-
-.navLiEnd {
-  list-style: none;
-  padding: 0.625rem; }
-
-main {
-  grid-area: main; }
-
-footer {
-  grid-area: footer; }
-
-header {
-  grid-area: header; }
-
-/* Inicio estilos de la barra de navegacion */
-.navLi {
-  list-style: none;
-  padding: 0.625rem; }
-
-.topPage {
-  background-color: #e21e04;
-  color: #fff;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  display: flex;
-  justify-content: space-between; }
-
-.textito {
-  font-size: 1.25rem; }
-
-.element {
-  margin-right: 1.25rem; }
-
-/*  Fin de estilos barra nav */
-/* Estilos parralax y el video  Index Styles start */
 .theme {
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
@@ -60,16 +53,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .theme .theme__vid {
+    border: 4px solid #21211B;
+    border-radius: 17px; }
 
-.img-parallax {
-  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-f1-drivers-pose-for-the-class-of-2020-photo-on-the-grid-news-photo-1611677220."); }
-
-.theme__vid {
-  border: 4px solid #21211B;
-  border-radius: 17px; }
-
-/* Estilos parralax y el video */
-/* Estilos de las secciones */
 .newGen {
   display: flex;
   justify-content: space-around;
@@ -79,55 +66,41 @@ header {
   border-bottom: 0.625rem solid #ff1100;
   border-radius: 17px 0px 0px 17px;
   margin: 1.25rem; }
-
-.title-main {
-  margin: 5px; }
-
-.newGen__front {
-  padding: 0.625rem;
-  margin: 0.625rem;
-  border-top: 3px solid #424242;
-  border-right: 3px solid #424242;
-  border-bottom: 3px solid rgba(66, 66, 66, 0);
-  border-radius: 0px 0.9rem 0px 0.9rem;
-  background-color: #e6e4e4;
-  height: 25rem;
-  max-width: 20rem;
-  text-align: center; }
-
-.newGen__car {
-  display: flex;
-  flex-direction: column;
-  padding: 0.625rem;
-  margin: 0.625rem;
-  border-top: 3px solid #424242;
-  border-right: 3px solid #424242;
-  border-bottom: 3px solid rgba(66, 66, 66, 0);
-  border-radius: 0px 0.9rem 0px 0.9rem;
-  background-color: #e6e4e4;
-  width: 20rem; }
-
-.newGen__img {
-  border: 3px solid #fff;
-  border-radius: 3px;
-  width: 18.68rem;
-  height: 10.5rem;
-  align-self: center; }
-
-.newGen__info {
-  text-align: justify;
-  margin-top: 0.9rem;
-  display: block; }
-
-.newGen__car p {
-  margin-top: 0.9rem;
-  text-align: justify; }
-
-.seleccion {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-  background: #fff;
-  background: linear-gradient(180deg, #fbfbff 0%, #98989a 39%, #1b1b1b 100%, white 100%); }
+  .newGen .newGen__front {
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-top: 3px solid #424242;
+    border-right: 3px solid #424242;
+    border-bottom: 3px solid rgba(66, 66, 66, 0);
+    border-radius: 0px 0.9rem 0px 0.9rem;
+    background-color: #e6e4e4;
+    height: 25rem;
+    max-width: 20rem;
+    text-align: center; }
+  .newGen .newGen__car {
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-top: 3px solid #424242;
+    border-right: 3px solid #424242;
+    border-bottom: 3px solid rgba(66, 66, 66, 0);
+    border-radius: 0px 0.9rem 0px 0.9rem;
+    background-color: #e6e4e4;
+    width: 20rem; }
+  .newGen .newGen__img {
+    border: 3px solid #fff;
+    border-radius: 3px;
+    width: 18.68rem;
+    height: 10.5rem;
+    align-self: center; }
+  .newGen .newGen__info {
+    text-align: justify;
+    margin-top: 0.9rem;
+    display: block; }
+    .newGen .newGen__info .newGen__car p {
+      margin-top: 0.9rem;
+      text-align: justify; }
 
 .bordes {
   border-top: 0.625rem solid #000;
@@ -135,33 +108,36 @@ header {
   border-top-right-radius: 0.625rem;
   padding: 1rem;
   width: 100%; }
-
-.seleccion__cont {
-  height: 15rem;
-  position: relative;
-  overflow: hidden;
-  border-radius: 1.25rem;
-  margin-bottom: 0.625rem; }
-
-.seleccion__img-uno, .seleccion__img-dos {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  inset: 0;
-  object-fit: cover;
-  border-radius: 0.625rem;
-  margin: 5px 0.625rem 5px 0.625rem;
-  transition: transform .75s; }
-
-.seleccion__img-tres {
-  width: 34.1rem;
-  height: 100%;
-  position: absolute;
-  inset: 0;
-  object-fit: cover;
-  border-radius: 0.625rem;
-  margin: 5px 0.625rem 5px 0.625rem;
-  transition: transform .75s; }
+  .bordes .seleccion {
+    height: 15rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.25rem;
+    margin-bottom: 0.625rem; }
+    .bordes .seleccion__img-uno, .bordes .seleccion__img-dos {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+      border-radius: 0.625rem;
+      margin: 5px 0.625rem 5px 0.625rem;
+      transition: transform .75s; }
+    .bordes .seleccion__img-tres {
+      width: 34.1rem;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+      border-radius: 0.625rem;
+      margin: 5px 0.625rem 5px 0.625rem;
+      transition: transform .75s; }
+    .bordes .seleccion__titulo {
+      position: absolute;
+      color: #fff;
+      font-size: 1.25rem;
+      left: 0.9rem;
+      bottom: 0.9rem; }
 
 .seleccion__img-uno:hover {
   transform: scale(1.15); }
@@ -172,65 +148,148 @@ header {
 .seleccion__img-tres:hover {
   transform: scale(1.15); }
 
-.seleccion__titulo {
-  position: absolute;
-  color: #fff;
-  font-size: 1.25rem;
-  left: 0.9rem;
-  bottom: 0.9rem; }
+.pilotos-titulo {
+  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+  padding: 0.625rem;
+  font-size: 1.875rem;
+  border-top: 0.9rem solid #000;
+  border-right: 0.9rem solid #000;
+  border-top-right-radius: 0.625rem; }
 
-/* Estilos fotos y video */
-/* Index Styles End */
-/* Estilos Pie de pagina */
-.endPage {
-  display: flex;
+.pilotos {
+  border-top: 0.9rem solid #f00;
+  border-left: 0.9rem solid #f00;
+  border-radius: 0.625rem 0px 0px 0.625rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem; }
+  .pilotos__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.9rem; }
+  .pilotos__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem;
+    border-bottom: 0.5px solid #000; }
+    .pilotos__info .piloto-name p {
+      display: inline-block;
+      font-size: 1.25rem; }
+    .pilotos__info .piloto-pais img {
+      width: 3.125rem;
+      border: 1px solid #949498;
+      border-radius: 3px; }
+  .pilotos__img {
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid #000; }
+    .pilotos__img .num {
+      width: 5rem;
+      height: 3rem;
+      border: 1px solid 231, 231, 231;
+      border-radius: 3px;
+      margin-right: 0.9rem; }
+  .pilotos .pilotos__datos {
+    margin-top: 0.9rem;
+    padding-bottom: 0.625rem; }
+
+.escu-title {
+  margin: 0.625rem 1.875rem 0.625rem 1.875rem;
+  padding: 0.625rem;
+  font-size: 1.875rem;
+  border-top: 0.9rem solid #000;
+  border-right: 0.9rem solid #000;
+  border-top-right-radius: 0.625rem; }
+
+.escu {
+  border-top: 0.9rem solid #f00;
+  border-left: 0.9rem solid #f00;
+  border-bottom: 0.9rem solid #f00;
+  border-radius: 0.625rem 0px 0px 0.625rem;
+  margin-right: 1.875rem;
+  margin-left: 1.875rem;
+  padding: 0px 1.25rem 0.9rem 5px; }
+  .escu__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem; }
+  .escu__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #000;
+    margin-bottom: 0.625rem; }
+    .escu__info .escudo img {
+      width: 3.125rem;
+      height: 3.125rem; }
+  .escu__pilotos p {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 0.625rem;
+    border-bottom: 0.5px solid #000;
+    border-right: 0.5px solid #000;
+    border-bottom-right-radius: 5px;
+    text-align: center; }
+  .escu .escu__img img {
+    margin-top: 0.625rem; }
+
+.titulo {
+  margin: 0.625rem 1.875rem 0.625rem 1.875rem;
+  padding: 0.625rem;
+  font-size: 1.875rem;
+  border-top: 0.9rem solid #000;
+  border-right: 0.9rem solid #000;
+  border-top-right-radius: 0.625rem; }
+
+.circuito {
+  border-top: 0.9rem solid #f00;
+  border-left: 0.9rem solid #f00;
+  border-bottom: 0.9rem solid #f00;
+  border-radius: 0.625rem 0px 0px 0.625rem;
   align-items: center;
-  justify-content: space-between;
-  background-color: #15151e;
-  border: 2px solid #38383f;
-  color: #fff;
-  margin-top: 5px; }
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+  padding-bottom: 0.9rem; }
+  .circuito .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0.625rem;
+    height: fit-content; }
+  .circuito__info {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 0.5px solid #000;
+    padding-bottom: 5px; }
+    .circuito__info .date-cal {
+      display: inline-block; }
+    .circuito__info .pais img {
+      width: 3.125rem;
+      border: 1px solid #949498;
+      border-radius: 3px; }
+  .circuito__data {
+    margin-top: 0.625rem; }
+    .circuito__data h2 {
+      margin: 0.625rem; }
+    .circuito__data p {
+      margin-top: 0.625rem; }
+    .circuito__data img {
+      height: 6rem;
+      width: 15rem;
+      padding: 0.625rem 0px 0.625rem 0px;
+      border-bottom: 0.5px solid #000;
+      border-top: 0.5px solid #000; }
 
-.endPage-new {
-  display: flex;
-  flex-direction: column;
-  background-color: #15151e;
-  border: 2px solid #38383f;
-  color: #fff; }
+.pistas__bordes {
+  border-top: 0.625rem solid #000;
+  border-right: 0.625rem solid #000;
+  border-top-right-radius: 0.625rem;
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem; }
 
-.endPage__top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.endPage__mapa {
-  display: flex;
-  padding: 0.9rem;
-  background-color: #222121; }
-
-.endPage__mapa a:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-color: #f00; }
-
-.endPage__socials {
-  display: flex; }
-
-.endPage__socials a {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  transition: 0.4s;
-  box-shadow: #000 3px 3px 6px 0px, #000 -3px -3px 6px 1px; }
-
-.endPage__socials a:hover {
-  transform: translateY(-0.625rem); }
-
-/* Estilos pie de pag */
-/* inicio Estilos Form */
 .register-site {
   padding: 1.25rem auto;
   margin: 0.625rem 1.25rem 0; }
@@ -241,34 +300,49 @@ header {
   align-items: flex-start;
   border: 3px solid #000;
   border-radius: 12px;
-  margin: auto;
+  margin: 1.5rem auto 1.5rem auto;
   padding: 1.25rem;
   max-width: 63.125rem; }
-
-.formSection {
-  display: flex;
-  flex-direction: column;
-  padding: 0.625rem;
-  width: 30rem; }
-
-.formSection-boton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  padding: 0.625rem 1.25rem 0px 0px;
-  width: 100%; }
+  .formContainer .formSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    width: 30rem; }
+    .formContainer .formSection .ingresar, .formContainer .formSection select, .formContainer .formSection input {
+      border: solid 1px #15151e;
+      border-radius: 0.625rem;
+      height: 3.375rem;
+      padding: 2px; }
+    .formContainer .formSection .date {
+      width: 65%; }
+    .formContainer .formSection .country {
+      width: 70%; }
+    .formContainer .formSection-boton {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 0.625rem 1.25rem 0px 0px;
+      width: 100%; }
+      .formContainer .formSection-boton .button {
+        width: 12.5rem;
+        color: #fff;
+        padding: 5px 0.625rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #d90429;
+        background: #d90429; }
+        .formContainer .formSection-boton .button:hover {
+          background: #fff;
+          color: #d90429; }
 
 .checkbox {
   width: auto;
   height: auto; }
-
-.ingresar, select, input {
-  border: solid 1px #15151e;
-  border-radius: 0.625rem;
-  height: 3.375rem;
-  width: 100%;
-  padding: 2px; }
 
 .pass-titulo {
   padding-top: 5px;
@@ -281,121 +355,42 @@ header {
   padding-bottom: 8px;
   font-size: 0.9rem; }
 
-.date {
-  width: 65%; }
+* {
+  margin: 0px;
+  padding: 0px; }
 
-.country {
-  width: 70%; }
-
-.button {
-  width: 12.5rem;
+a {
+  text-decoration: none;
   color: #fff;
-  padding: 5px 0.625rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: inline-block;
-  outline: none;
-  border-radius: 5px;
-  border: 2px solid #d90429;
-  background: #d90429; }
+  margin: 5px; }
 
-.button:hover {
-  background: #fff;
-  color: #d90429; }
+ul {
+  list-style: none; }
 
-/* Fin estilos form */
-/*Inicio pagina circuitos*/
-.circuito {
-  border-top: 0.9rem solid #f00;
-  border-left: 0.9rem solid #f00;
-  border-bottom: 0.9rem solid #f00;
-  border-radius: 0.625rem 0px 0px 0.625rem;
-  align-items: center;
-  margin-left: 1.875rem;
-  margin-right: 1.875rem;
-  padding-bottom: 0.9rem; }
+main {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif; }
 
-.titulo {
-  margin: 0.625rem 1.875rem 0.625rem 1.875rem;
-  padding: 0.625rem;
-  font-size: 1.875rem;
-  border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
-  border-top-right-radius: 0.625rem; }
+.navLiEnd {
+  list-style: none;
+  padding: 0.625rem; }
 
-.size-border {
-  border: 2px solid #000;
-  border-radius: 0.625rem;
-  margin-left: 1.875rem;
-  margin-top: 1.875rem;
-  background-color: #fff; }
-
-.contenedor {
+.topPage {
+  background-color: #e21e04;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 0.625rem;
-  height: fit-content; }
+  justify-content: space-between; }
+  .topPage .textito {
+    font-size: 1.25rem; }
+  .topPage .element {
+    margin-right: 1.25rem; }
 
-.circuito__info {
-  display: flex;
-  font-size: 1.1rem;
-  font-weight: 600;
-  border-bottom: 0.5px solid #000;
-  padding-bottom: 5px; }
-
-.pais img {
-  width: 3.125rem;
-  border: 1px solid #949498;
-  border-radius: 3px; }
-
-.circuito__data {
-  margin-top: 0.625rem; }
-
-.circuito__data h2 {
-  margin: 0.625rem; }
-
-.circuito__data p {
-  margin-top: 0.625rem; }
-
-.date-cal {
-  display: inline-block; }
-
-.mes {
-  border: 1px solid #000;
-  border-radius: 3px;
-  background-color: #000; }
-
-.circuito__data img {
-  height: 6rem;
-  width: 15rem;
-  padding: 0.625rem 0px 0.625rem 0px;
-  border-bottom: 0.5px solid #000;
-  border-top: 0.5px solid #000; }
-
-.pistas {
-  overflow: hidden;
-  padding: 0.625rem;
+.fondo {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   background: #fff;
   background: linear-gradient(180deg, #fbfbff 0%, #98989a 39%, #1b1b1b 100%, white 100%); }
-
-.pistas__bordes {
-  border-top: 0.625rem solid #000;
-  border-right: 0.625rem solid #000;
-  border-top-right-radius: 0.625rem;
-  margin: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem; }
-
-/*Fin pagina circuitos*/
-/* Inicio pagina pilotos*/
-.pilotos {
-  border-top: 0.9rem solid #f00;
-  border-left: 0.9rem solid #f00;
-  border-radius: 0.625rem 0px 0px 0.625rem;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem; }
 
 .size-border {
   border: 2px solid #000;
@@ -405,116 +400,22 @@ header {
   background-color: #ece2e2;
   width: fit-content; }
 
-.pilotos__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 0.9rem;
-  /* background-color: rgb(231, 231, 231); */ }
-
-.pilotos-titulo {
-  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
-  padding: 0.625rem;
-  font-size: 1.875rem;
-  border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
-  border-top-right-radius: 0.625rem; }
-
-.pilotos__info {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.625rem;
-  border-bottom: 0.5px solid #000; }
-
-.piloto-name p {
-  display: inline-block;
-  font-size: 1.25rem; }
-
-.piloto-pais img {
-  width: 3.125rem;
-  border: 1px solid #949498;
-  border-radius: 3px; }
-
-.pilotos__img {
-  display: flex;
-  margin-top: 5px;
-  padding-bottom: 5px;
-  border-bottom: 0.5px solid #000; }
-
-.num {
-  width: 5rem;
-  height: 3rem;
-  border: 1px solid 231, 231, 231;
-  border-radius: 3px;
-  margin-right: 0.9rem; }
-
-.pilotos__datos {
-  margin-top: 0.9rem;
-  padding-bottom: 0.625rem; }
-
-/* Fin pagina pilotos */
-/* Inicio pagina escuderias */
-.escu {
-  border-top: 0.9rem solid #f00;
-  border-left: 0.9rem solid #f00;
-  border-bottom: 0.9rem solid #f00;
-  border-radius: 0.625rem 0px 0px 0.625rem;
-  margin-right: 1.875rem;
-  margin-left: 1.875rem;
-  padding: 0px 1.25rem 0.9rem 5px; }
-
-.escu-title {
-  margin: 0.625rem 1.875rem 0.625rem 1.875rem;
-  padding: 0.625rem;
-  font-size: 1.875rem;
-  border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
-  border-top-right-radius: 0.625rem; }
-
-.escu__container {
-  display: flex;
-  flex-direction: column;
-  padding: 0.625rem; }
-
-.escu__info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 0.5px solid #000;
-  margin-bottom: 0.625rem; }
-
-.escudo img {
-  width: 3.125rem;
-  height: 3.125rem; }
-
-.escu__pilotos p {
-  display: inline-block;
-  padding: 5px;
-  margin-right: 0.625rem;
-  border-bottom: 0.5px solid #000;
-  border-right: 0.5px solid #000;
-  border-bottom-right-radius: 5px;
-  text-align: center; }
-
-.escu__img img {
-  margin-top: 0.625rem; }
-
 @media (min-width: 320px) and (max-width: 540px) {
   .theme {
     display: none; }
   .escu-title {
-    margin: 0.625rem 0px 0.625rem 0px; }
+    margin: 10px 0px 10px 0px; }
   .escu {
     align-items: center;
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
-    border-bottom: 0.9rem solid #f00;
-    border-radius: 0.625rem 0px 0px 0.625rem;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
     margin: auto; }
   .pilotos {
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
-    border-radius: 0.625rem 0px 0px 0.625rem;
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
     margin-left: 0px; }
   .formSection {
     width: 18rem; }
@@ -525,27 +426,23 @@ header {
   .escu__img img {
     width: 17rem; }
   .escu__pilotos p {
-    margin-right: 0px; }
-  .size-border {
-    margin-left: 1px; } }
+    margin-right: 0px; } }
 
 /* Tablets */
-@media (min-width: 541px) and (max-width: 71.25rem) {
+@media (min-width: 541px) and (max-width: 720px) {
   .escu {
     align-items: center;
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
-    border-bottom: 0.9rem solid #f00;
-    border-radius: 0.625rem 0px 0px 0.625rem;
-    padding: 0px 1.25rem 0.9rem 5px;
-    margin: 0px 1.875rem 0px 1.875rem; }
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-bottom: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 20px 15px 5px;
+    margin: 0px 30px 0px 30px; }
   .pilotos {
-    border-top: 0.9rem solid #f00;
-    border-left: 0.9rem solid #f00;
-    border-radius: 0.625rem 0px 0px 0.625rem; }
+    border-top: 15px solid #f00;
+    border-left: 15px solid #f00;
+    border-radius: 10px 0px 0px 10px; }
   .formSection {
     width: 31rem; }
   .size-border-pilotos {
     width: fit-content; } }
-
-/* Fin pagina escuderias */

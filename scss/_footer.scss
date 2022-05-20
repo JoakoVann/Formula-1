@@ -1,0 +1,47 @@
+.endPage{
+  display: flex;
+  flex-direction: column;
+  background-color: $footer-color;
+  border: 2px solid #38383f;
+  color: $white;
+  &__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__socials{
+    display: flex;
+    &>a {
+          font-size: 2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          text-decoration: none;
+          transition: 0.4s;
+          box-shadow: $black
+          3px 3px 6px 0px,
+          $black
+          -3px -3px 6px 1px;
+          .primero:hover{
+            transform: translateY(-0.625rem);
+          }
+          .segundo:hover{
+            transform: translateY(-0.625rem);
+          }
+          .tercero:hover{
+            transform: translateY(-0.625rem);
+          }
+        }
+  }
+  &__mapa{
+    display: flex;
+    padding: 0.9rem;
+    background-color: $footer-secundario;
+    & a:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-color:$red;
+    }
+  }
+}

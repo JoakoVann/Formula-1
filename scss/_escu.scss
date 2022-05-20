@@ -1,0 +1,50 @@
+.escu-title{
+  margin: 0.625rem 1.875rem 0.625rem 1.875rem;
+  padding: 0.625rem;
+  font-size: 1.875rem;
+  border-top: 0.9rem solid $black;
+  border-right: 0.9rem solid $black;
+  border-top-right-radius: 0.625rem;
+}
+
+.escu{
+  border-top: 0.9rem solid $red;
+  border-left: 0.9rem solid $red;
+  border-bottom: 0.9rem solid $red;
+  border-radius: 0.625rem 0px 0px 0.625rem;
+  margin-right: 1.875rem;
+  margin-left:1.875rem; 
+  padding: 0px 1.25rem 0.9rem 5px; 
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    padding:0.625rem;
+  }
+
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:.5px solid $black;  
+    margin-bottom: 0.625rem;
+    .escudo img{
+      width: 3.125rem;
+      height: 3.125rem;
+    }
+  }
+  
+  &__pilotos p{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 0.625rem;
+    border-bottom:.5px solid $black;
+    border-right: .5px solid $black;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+  }
+
+  .escu__img img{
+    margin-top: 0.625rem;
+  }
+}

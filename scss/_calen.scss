@@ -1,0 +1,78 @@
+.titulo{
+  margin: 0.625rem 1.875rem 0.625rem 1.875rem;
+  padding: 0.625rem;
+  font-size: 1.875rem;
+  border-top: 0.9rem solid $black;
+  border-right: 0.9rem solid $black;
+  border-top-right-radius: 0.625rem;
+}
+
+.circuito{
+  border-top: 0.9rem solid $red;
+  border-left: 0.9rem solid $red;
+  border-bottom: 0.9rem solid $red;
+  border-radius: 0.625rem 0px 0px 0.625rem;
+  align-items: center;
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+  padding-bottom: 0.9rem;
+  .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0.625rem;
+    height: fit-content;
+  }
+  &__info{
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: .5px solid $black;
+    padding-bottom: 5px;
+    .date-cal{
+      display: inline-block;
+    }
+    .pais img{
+      width: 3.125rem;
+      border: 1px solid #949498;
+      border-radius: 3px;
+    }
+  }
+  &__data {
+    margin-top: 0.625rem;
+    & h2 {
+      margin: 0.625rem;
+    }
+    & p {
+      margin-top: 0.625rem;
+    }
+    & img{
+      height: 6rem;
+      width: 15rem;
+      padding: 0.625rem 0px 0.625rem 0px;
+      border-bottom: .5px solid $black;
+      border-top: .5px solid $black;
+    }
+  }
+}
+
+
+.pistas__bordes{
+  border-top: 0.625rem solid $black;
+  border-right: 0.625rem solid $black;
+  border-top-right-radius: 0.625rem;
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+
+
+
+
+// .mes {
+//   border: 1px solid $black;
+//   border-radius: 3px;
+//   background-color: $black;
+// }
+

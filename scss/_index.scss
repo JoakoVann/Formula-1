@@ -1,0 +1,134 @@
+.title-main{
+  margin: 5px;
+}
+
+
+
+.img-parallax{
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-f1-drivers-pose-for-the-class-of-2020-photo-on-the-grid-news-photo-1611677220.");
+}
+
+.theme{
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+  position: relative;
+  max-width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .theme__vid{
+    border: 4px solid #21211B;
+    border-radius: 17px;
+  }
+}
+
+
+.newGen{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 0.625rem solid rgb(255, 17, 0);
+  border-left: 0.625rem solid rgb(255, 17, 0);
+  border-bottom: 0.625rem solid rgb(255, 17, 0);
+  border-radius: 17px 0px 0px 17px;
+  margin: 1.25rem;
+  .newGen__front{
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-top: 3px solid rgb(66, 66, 66);
+    border-right: 3px solid rgb(66,66,66);
+    border-bottom: 3px solid rgba(66,66,66,0);
+    border-radius: 0px 0.9rem 0px 0.9rem; 
+    background-color: rgb(230, 228, 228);
+    height: 25rem;
+    max-width: 20rem;
+    text-align: center;
+  }
+  .newGen__car{
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-top: 3px solid rgb(66, 66, 66);
+    border-right: 3px solid rgb(66,66,66);
+    border-bottom: 3px solid rgba(66,66,66,0);
+    border-radius: 0px 0.9rem 0px 0.9rem; 
+    background-color: rgb(230, 228, 228);
+    width: 20rem;
+  }
+  .newGen__img {
+    border: 3px solid $white;
+    border-radius: 3px; 
+    width: 18.68rem;
+    height: 10.5rem;
+    align-self: center;
+  }
+  .newGen__info{
+    text-align: justify;
+    margin-top: 0.9rem;
+    display: block;
+    .newGen__car p {
+      margin-top: 0.9rem;
+      text-align: justify;
+    }
+  }
+}
+
+.bordes{
+  border-top: 0.625rem solid $black;
+  border-right: 0.625rem solid $black;
+  border-top-right-radius: 0.625rem;
+  padding:1rem;
+  width: 100%;
+  .seleccion{
+    height: 15rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.25rem;
+    margin-bottom: 0.625rem;
+    &__img-uno,&__img-dos{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+      border-radius: 0.625rem;
+      margin:5px 0.625rem 5px 0.625rem;
+      transition: transform .75s;
+    }
+    &__img-tres{
+      width: 34.1rem;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+      border-radius: 0.625rem;
+      margin:5px 0.625rem 5px 0.625rem;
+      transition: transform .75s;
+    }
+    &__titulo{
+      position: absolute;
+      color: $white;
+      font-size: 1.25rem;
+      left: 0.9rem;
+      bottom: 0.9rem;
+    } 
+  } 
+}
+
+.seleccion__img-uno:hover{
+  transform: scale(1.15);
+}
+
+.seleccion__img-dos:hover{
+  transform: scale(1.15);
+}
+
+.seleccion__img-tres:hover{
+  transform: scale(1.15);
+}

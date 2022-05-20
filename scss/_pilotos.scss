@@ -1,0 +1,65 @@
+
+.pilotos-titulo{
+  margin: 0.625rem 1.25rem 0.625rem 1.25rem;
+  padding: 0.625rem;
+  font-size: 1.875rem;
+  border-top: 0.9rem solid $black;
+  border-right: 0.9rem solid $black;
+  border-top-right-radius: 0.625rem;
+}
+
+.pilotos{
+  border-top: 0.9rem solid $red;
+  border-left: 0.9rem solid $red;
+  border-radius: 0.625rem 0px 0px 0.625rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.9rem;
+  }
+
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem;
+    border-bottom: .5px solid $black;
+    .piloto-name p{
+      display: inline-block;
+      font-size: 1.25rem;
+    }
+    .piloto-pais img{
+      width: 3.125rem;
+      border: 1px solid #949498;
+      border-radius: 3px;
+    }
+  }
+
+  &__img{
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: .5px solid $black;
+    .num {
+      width: 5rem;
+      height: 3rem;
+      border: 1px solid (231, 231, 231);
+      border-radius: 3px;
+      margin-right: 0.9rem;
+    }
+  }
+
+  .pilotos__datos{
+    margin-top: 0.9rem;
+    padding-bottom:0.625rem;
+  }
+}
+
+
+
+
+
+
