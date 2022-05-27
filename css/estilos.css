@@ -484,6 +484,9 @@ main {
   padding: 0.625rem; }
 
 .topPage {
+  position: sticky;
+  z-index: 10;
+  top: 0;
   background-color: #e21e04;
   color: #fff;
   font-family: "Plus Jakarta Sans", sans-serif;
