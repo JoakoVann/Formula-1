@@ -2,16 +2,11 @@
   margin: 0.625rem 1.875rem 0.625rem 1.875rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  border-top: 0.9rem solid $black;
-  border-right: 0.9rem solid $black;
-  border-top-right-radius: 0.625rem;
+  @include bordes ($black, 0.9rem, 0px, 0px, 0.0rem ,0px, 0.625rem, 0px, 0px);
 }
 
 .escu{
-  border-top: 0.9rem solid $red;
-  border-left: 0.9rem solid $red;
-  border-bottom: 0.9rem solid $red;
-  border-radius: 0.625rem 0px 0px 0.625rem;
+  @include bordes ($red, 0.9rem, 0.9rem, 0.9rem, 0px ,0.625rem, 0px, 0px, 0.625rem);
   margin-right: 1.875rem;
   margin-left:1.875rem; 
   padding: 0px 1.25rem 0.9rem 5px; 

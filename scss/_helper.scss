@@ -1,0 +1,7 @@
+@mixin bordes ($borderColor, $sizeBorderTop, $sizeBorderLeft, $sizeBorderBottom, $sizeBorderRight ,$radiusTopLeft, $radiusTopRight, $radiusBottomLeft, $radiusBottomRight){
+  border-top: $sizeBorderTop solid $borderColor;
+  border-left: $sizeBorderLeft solid $borderColor;
+  border-bottom: $sizeBorderBottom solid $borderColor;
+  border-right: $sizeBorderRight solid $borderColor;
+  border-radius: $radiusTopLeft $radiusTopRight $radiusBottomLeft $radiusBottomRight;
+}

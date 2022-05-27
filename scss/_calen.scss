@@ -2,16 +2,11 @@
   margin: 0.625rem 1.875rem 0.625rem 1.875rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  border-top: 0.9rem solid $black;
-  border-right: 0.9rem solid $black;
-  border-top-right-radius: 0.625rem;
+  @include bordes ($black, 0.9rem, 0px, 0px, 0.0rem ,0px, 0.625rem, 0px, 0px);
 }
 
 .circuito{
-  border-top: 0.9rem solid $red;
-  border-left: 0.9rem solid $red;
-  border-bottom: 0.9rem solid $red;
-  border-radius: 0.625rem 0px 0px 0.625rem;
+  @include bordes ($red, 0.9rem, 0.9rem, 0.9rem, 0px ,0.625rem, 0px, 0px, 0.625rem);
   align-items: center;
   margin-left: 1.875rem;
   margin-right: 1.875rem;
@@ -56,7 +51,6 @@
   }
 }
 
-
 .pistas__bordes{
   border-top: 0.625rem solid $black;
   border-right: 0.625rem solid $black;
@@ -65,14 +59,3 @@
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }
-
-
-
-
-
-// .mes {
-//   border: 1px solid $black;
-//   border-radius: 3px;
-//   background-color: $black;
-// }
-

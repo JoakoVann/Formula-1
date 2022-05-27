@@ -5,10 +5,6 @@
     margin: 10px 0px 10px 0px; }
   .escu {
     align-items: center;
-    border-top: 15px solid #f00;
-    border-left: 15px solid #f00;
-    border-bottom: 15px solid #f00;
-    border-radius: 10px 0px 0px 10px;
     margin: auto; }
   .pilotos {
     border-top: 15px solid #f00;
@@ -113,14 +109,16 @@
   border-top: 0.625rem solid #ff1100;
   border-left: 0.625rem solid #ff1100;
   border-bottom: 0.625rem solid #ff1100;
+  border-right: 0px solid #ff1100;
   border-radius: 17px 0px 0px 17px;
   margin: 1.25rem; }
   .newGen .newGen__front {
     padding: 0.625rem;
     margin: 0.625rem;
     border-top: 3px solid #424242;
+    border-left: 0px solid #424242;
+    border-bottom: 3px solid #424242;
     border-right: 3px solid #424242;
-    border-bottom: 3px solid rgba(66, 66, 66, 0);
     border-radius: 0px 0.9rem 0px 0.9rem;
     background-color: #e6e4e4;
     height: 25rem;
@@ -132,8 +130,9 @@
     padding: 0.625rem;
     margin: 0.625rem;
     border-top: 3px solid #424242;
+    border-left: 0px solid #424242;
+    border-bottom: 3px solid #424242;
     border-right: 3px solid #424242;
-    border-bottom: 3px solid rgba(66, 66, 66, 0);
     border-radius: 0px 0.9rem 0px 0.9rem;
     background-color: #e6e4e4;
     width: 20rem; }
@@ -153,8 +152,10 @@
 
 .bordes {
   border-top: 0.625rem solid #000;
+  border-left: 0px solid #000;
+  border-bottom: 0px solid #000;
   border-right: 0.625rem solid #000;
-  border-top-right-radius: 0.625rem;
+  border-radius: 0px 0.625rem 0px 0px;
   padding: 1rem;
   width: 100%; }
   .bordes .seleccion {
@@ -202,12 +203,16 @@
   padding: 0.625rem;
   font-size: 1.875rem;
   border-top: 0.9rem solid #000;
+  border-left: 0px solid #000;
+  border-bottom: 0px solid #000;
   border-right: 0.9rem solid #000;
-  border-top-right-radius: 0.625rem; }
+  border-radius: 0px 0.625rem 0px 0px; }
 
 .pilotos {
   border-top: 0.9rem solid #f00;
   border-left: 0.9rem solid #f00;
+  border-bottom: 0px solid #f00;
+  border-right: 0px solid #f00;
   border-radius: 0.625rem 0px 0px 0.625rem;
   margin-left: 1.25rem;
   margin-right: 1.25rem; }
@@ -236,7 +241,7 @@
     .pilotos__img .num {
       width: 5rem;
       height: 3rem;
-      border: 1px solid 231, 231, 231;
+      border: 1px solid #e7e7e7;
       border-radius: 3px;
       margin-right: 0.9rem; }
   .pilotos .pilotos__datos {
@@ -248,13 +253,16 @@
   padding: 0.625rem;
   font-size: 1.875rem;
   border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
-  border-top-right-radius: 0.625rem; }
+  border-left: 0px solid #000;
+  border-bottom: 0px solid #000;
+  border-right: 0rem solid #000;
+  border-radius: 0px 0.625rem 0px 0px; }
 
 .escu {
   border-top: 0.9rem solid #f00;
   border-left: 0.9rem solid #f00;
   border-bottom: 0.9rem solid #f00;
+  border-right: 0px solid #f00;
   border-radius: 0.625rem 0px 0px 0.625rem;
   margin-right: 1.875rem;
   margin-left: 1.875rem;
@@ -288,13 +296,16 @@
   padding: 0.625rem;
   font-size: 1.875rem;
   border-top: 0.9rem solid #000;
-  border-right: 0.9rem solid #000;
-  border-top-right-radius: 0.625rem; }
+  border-left: 0px solid #000;
+  border-bottom: 0px solid #000;
+  border-right: 0rem solid #000;
+  border-radius: 0px 0.625rem 0px 0px; }
 
 .circuito {
   border-top: 0.9rem solid #f00;
   border-left: 0.9rem solid #f00;
   border-bottom: 0.9rem solid #f00;
+  border-right: 0px solid #f00;
   border-radius: 0.625rem 0px 0px 0.625rem;
   align-items: center;
   margin-left: 1.875rem;
@@ -347,8 +358,11 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 3px solid #000;
-  border-radius: 12px;
+  border-top: 3px solid #000;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+  border-radius: 12px 12px 12px 12px;
   margin: 1.5rem auto 1.5rem auto;
   padding: 1.25rem;
   max-width: 63.125rem; }
@@ -411,10 +425,6 @@
     margin: 10px 0px 10px 0px; }
   .escu {
     align-items: center;
-    border-top: 15px solid #f00;
-    border-left: 15px solid #f00;
-    border-bottom: 15px solid #f00;
-    border-radius: 10px 0px 0px 10px;
     margin: auto; }
   .pilotos {
     border-top: 15px solid #f00;
@@ -491,8 +501,11 @@ main {
   background: linear-gradient(180deg, #fbfbff 0%, #98989a 39%, #1b1b1b 100%, white 100%); }
 
 .size-border {
-  border: 2px solid #000;
-  border-radius: 0.625rem;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
   margin-bottom: 5px;
   margin-top: 1.25rem;
   background-color: #ece2e2;

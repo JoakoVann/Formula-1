@@ -1,17 +1,15 @@
 
+@import 'helper';
+
 .pilotos-titulo{
   margin: 0.625rem 1.25rem 0.625rem 1.25rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  border-top: 0.9rem solid $black;
-  border-right: 0.9rem solid $black;
-  border-top-right-radius: 0.625rem;
+  @include bordes($black,0.9rem,0px,0px,0.9rem,0px,0.625rem,0px,0px);
 }
 
 .pilotos{
-  border-top: 0.9rem solid $red;
-  border-left: 0.9rem solid $red;
-  border-radius: 0.625rem 0px 0px 0.625rem;
+  @include bordes ($red, 0.9rem, 0.9rem, 0px, 0px ,0.625rem, 0px, 0px, 0.625rem);
   margin-left: 1.25rem;
   margin-right: 1.25rem;
 
@@ -46,7 +44,7 @@
     .num {
       width: 5rem;
       height: 3rem;
-      border: 1px solid (231, 231, 231);
+      border: 1px solid rgb(231, 231, 231);
       border-radius: 3px;
       margin-right: 0.9rem;
     }
