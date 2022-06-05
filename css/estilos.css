@@ -212,12 +212,11 @@
 .pilotos {
   border-top: 0.9rem solid #f00;
   border-left: 0.9rem solid #f00;
-  border-bottom: 0px solid #f00;
+  border-bottom: 0.9rem solid #f00;
   border-right: 0px solid #f00;
   border-radius: 0.625rem 0px 0px 0.625rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem; }
+  margin: 0rem 2rem 2rem 2rem;
+  padding-bottom: .9rem; }
   .pilotos__container {
     display: flex;
     flex-direction: column;
@@ -266,9 +265,7 @@
   border-bottom: 0.9rem solid #f00;
   border-right: 0px solid #f00;
   border-radius: 0.625rem 0px 0px 0.625rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
   padding: 0px 1.25rem 0.9rem 5px; }
   .escu__container {
     display: flex;
@@ -314,9 +311,7 @@
   border-right: 0px solid #f00;
   border-radius: 0.625rem 0px 0px 0.625rem;
   align-items: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
   padding-bottom: 0.9rem; }
   .circuito .contenedor {
     display: flex;
@@ -341,7 +336,8 @@
   .circuito__data {
     margin-top: 0.625rem; }
     .circuito__data h2 {
-      margin: 0.625rem; }
+      margin: 0.625rem;
+      text-align: center; }
     .circuito__data p {
       margin-top: 0.625rem; }
     .circuito__data img {
