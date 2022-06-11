@@ -2,7 +2,7 @@
   margin: 0.625rem 2rem 0.625rem 2rem;
   padding: 0.625rem;
   font-size: 1.875rem;
-  @include bordes ($black, 0.9rem, 0px, 0px, 0.0rem ,0px, 0.625rem, 0px, 0px);
+  @include bordes ($black, 0.9rem, 0px, 0px, 0.9rem, 0px, 0.625rem, 0px, 0px);
 }
 
 .circuito{
